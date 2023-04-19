@@ -1,0 +1,349 @@
+@media screen and (max-width: 1500px) {
+    .cp-user-sidebar::before{
+        opacity: 0.3;
+    }
+    .header-middle nav>ul li {
+        margin-right: 15px;
+    }
+    .header-middle nav>ul li a span.cp-user-icon{
+        margin-right: 10px;
+    }
+    /*.header-middle nav ul li a .cp-user-icon {*/
+    /*    display: none;*/
+    /*}*/
+
+    .header-middle nav>ul>li>a .cp-user-name {
+        font-size: 15px;
+    }
+    .header-middle {
+        padding: 5px 58px;
+    }
+    .cp-user-main-wrapper {
+        padding: 15px 40px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .cp-user-transaction-history-table table thead tr th {
+        height: 72px;
+    }
+    .cp-user-profile-info .profile-edit-btn,
+    .input-group-prepend-phone-verify .btn,
+    .cp-user-profile-info .form-control {
+        height: 45px;
+    }
+    .cp-user-profile-info .profile-edit-btn {
+        font-size: 16px;
+    }
+    .cp-user-top-bar-status-area li:not(:last-child) {
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header-middle nav>ul li {
+        margin-right: 15px;
+    }
+    .header-middle .cp-user-logo a img {
+        max-width: 80px;
+    }
+    .cp-user-avater .cp-user-img {
+        width: 47px;
+        height: 47px;
+    }
+    /*.header-middle nav>ul>li>a .cp-user-name {*/
+    /*    font-size: 14px;*/
+    /*}*/
+    .header-middle nav ul li a .cp-user-icon img {
+        width: 18px;
+        height: 18px;
+    }
+    .header-middle nav>ul li a span.cp-user-icon {
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .cp-user-top-bar .logo {
+        padding-left: 0;
+    }
+    .cp-user-top-bar-status-area li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .cp-user-deposit-card-select .form-control li {
+        background: #2A3865;
+    }
+
+    .cp-user-deposit-card-select {
+        z-index: 99;
+    }
+
+    .verify-input-group {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .verify-input {
+        padding: 0 8px;
+    }
+    .id-card-type {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .header-middle nav>ul li {
+        margin-right: 20px;
+    }
+    .header-middle nav>ul>li>a .cp-user-name {
+        font-size: 16px;
+    }
+    .header-middle nav ul li a .cp-user-icon {
+        margin-right: 7px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header-middle {
+        padding: 5px 15px;
+    }
+    .cp-user-top-bar {
+        position: relative;
+    }
+
+    .cp-user-top-bar-status-area {
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+    .cp-user-sidebar .logo {
+        min-height: 130px;
+        line-height: 130px;
+        padding-left: 30px;
+    }
+
+    .cp-user-main-wrapper {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .cp-user-profile-info .profile-edit-btn {
+        max-width: unset;
+    }
+
+    .btn {
+        width: 100% !important;
+    }
+
+    #popUpModal .btn{
+        width: unset !important;
+    }
+
+    .cp-user-setting-card .cp-user-content .cp-user-setupbtn {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cp-user-top-bar-status-area {
+        padding-left: 0;
+    }
+
+    .cp-user-top-bar-status-area li:not(:last-child) {
+        margin-right: 12px;
+    }
+
+    .cp-user-top-bar .cp-user-avater .cp-user-img {
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .cp-user-top-bar .cp-user-avater .cp-user-avater-info {
+        line-height: 1;
+    }
+
+    .cp-user-top-bar .cp-user-avater .cp-user-avater-info span {
+        font-size: 12px;
+    }
+
+    .cp-user-top-bar .cp-user-avater .cp-user-avater-info p {
+        font-size: 14px;
+    }
+    .cp-user-idverifymodal .modal-content .close,
+    .cp-user-move-coin-modal .close {
+        top: 5px;
+        right: 5px;
+    }
+    .cp-user-idverifymodal .modal-body {
+        padding: 20px;
+    }
+    .idcard .card-inner {
+        max-width: 100%;
+    }
+}
+@media(max-width:575px){
+    .cp-user-card-header-area{
+        flex-wrap: wrap;
+        margin-bottom: 45px!important;
+    }
+    .title #list_title, .title #list_title2 {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .id-card-type {
+        width: 100%;
+        margin: 0 0 30px;
+        padding: 0;
+    }
+    .cp-user-profile-info-id-type{
+        margin-top: 0;
+    }
+    .cp-user-top-bar {
+        min-height: 100px;
+        line-height: 100px;
+    }
+
+    .cp-user-top-bar-right {
+        display: table;
+        margin-left: auto;
+    }
+
+    .cp-user-top-bar-status-area li:first-child {
+        margin-right: 38px;
+    }
+
+    .cp-user-top-bar-status-area li:not(:last-child) {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .cp-user-coin-rate ul {
+        padding: 20px 15px;
+    }
+
+    .cp-user-coin-rate ul li {
+        font-size: 16px;
+    }
+
+    .cp-user-coin-rate .cp-user-img img {
+        height: 370px;
+        width: 370px;
+    }
+
+    .cp-user-main-wrapper {
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .cp-user-bank-info ul {
+        padding: 0;
+    }
+
+    .cp-user-bank-info ul li {
+        display: block;
+        height: unset;
+        line-height: initial;
+        padding: 10px;
+    }
+
+    .cp-user-bank-info ul li span {
+        width: 100%;
+    }
+
+    .cp-user-wallet-table table tbody tr td ul li img {
+        width: 20px;
+    }
+
+    .cp-user-wallet-card .cp-user-card-header-area {
+        display: block;
+    }
+
+    .cp-user-wallet-card .cp-user-card-header-area .cp-user-title {
+        margin-bottom: 15px;
+    }
+
+    .cp-user-profile-tab-content .cp-user-custom-card .cp-user-profile-info ul li {
+        display: block;
+    }
+
+    .cp-user-profile-tab-content .cp-user-custom-card .cp-user-profile-info ul li span:first-child {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .cp-user-profile-tab-content .cp-user-custom-card {
+        padding: 15px 0;
+    }
+
+    .user-profile-area {
+        justify-content: center;
+        height: 320px;
+    }
+
+    .cp-user-profile-nav {
+        display: block;
+    }
+
+    .cp-user-profile-nav .nav-link {
+        width: 100%;
+    }
+
+    .input-group-prepend .btn {
+        width: 115px;
+        padding: 0 10px;
+    }
+
+    .input-group-prepend .btn::before {
+        right: 10px;
+    }
+
+    .cp-user-share-buttons ul {
+        display: block;
+    }
+
+    .cp-user-share-buttons ul li a {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .cp-user-share-buttons ul li:not(:last-child) {
+        margin-right: 0;
+    }
+    .cp-user-profile-tab-content .cp-user-custom-card .cp-user-profile-info ul li {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    .countdown-section {
+        width: 48%;
+        margin: 8px 0px;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .cp-user-top-bar-status-area li:not(:last-child) {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .cp-user-top-bar-status-area li:first-child {
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before,
+    table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+        left: 0;
+    }
+
+    .cp-user-copy .input-group .btn {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cp-user-top-bar-status-area li:last-child {
+        margin-top: 15px;
+    }
+}

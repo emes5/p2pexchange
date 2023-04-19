@@ -1,0 +1,124 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+@media (max-width: 1199px) {
+    .header-area .navbar-nav .nav-item {
+        margin: 0 1rem;
+    }
+    .hero-banner-area .hero-title {
+        margin-bottom: 2.5rem;
+        font-size: 4.2rem;
+    }
+    .hero-banner-area .hero-content {
+        margin-bottom: 3rem;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+    .hero-banner-area .find-offer-form {
+        padding: 4.5rem 2.5rem;
+    }
+    .hero-banner-area {
+        padding: 100px 0;
+    }
+    .treading-process-area .single-process {
+        padding: 3rem 2rem;
+    }
+    .treading-process-area .single-process .process-title {
+        font-size: 2.2rem;
+    }
+}
+
+/* Tablet desktop :768px. */
+
+@media (max-width: 991px) {
+	.header-area .navbar-nav .nav-item {
+        margin: 0;
+    }
+    .hero-banner-area .find-offer-form {
+        margin-top: 4rem;
+    }
+    .about-area .about-image {
+        margin-top: 3rem;
+    }
+    .faq-area .faq-accordion .accordion-item .accordion-header .accordion-button {
+        padding: 15px 15px;
+        font-size: 1.6rem;
+    }
+    .faq-area .faq-accordion .accordion-item .accordion-body {
+        padding: 0 15px 15px 15px;
+    }
+}
+@media (max-width: 767px) {
+	.treading-process-area .single-process {
+        padding: 3rem;
+        text-align: center;
+    }
+    .subscribe-area .subscribe-form .subscribe-wrap .form-control {
+        height: 6rem;
+        padding: 1rem 2rem;
+        padding-right: 6rem;
+        font-size: 1.4rem;
+    }
+    .subscribe-area .subscribe-form .subscribe-wrap .send-btn {
+        right: 1rem;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+    .footer-area .footer-bottom {
+        padding: 1.5rem 0;
+    }
+}
+@media (max-width: 575px) {
+	.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    .about-area .about-info .about-subtitle {
+        font-size: 1.8rem;
+        line-height: 3rem;
+        font-weight: 400;
+    }
+    .about-area .about-info .about-title {
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+    }
+    .section-header-area .section-title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+@media (max-width: 480px) {
+	.hero-banner-area {
+        padding: 70px 0;
+    }
+    .hero-banner-area .hero-title {
+        font-size: 3.2rem;
+        margin-bottom: 2rem;
+    }
+    .hero-banner-area .hero-content {
+        margin-bottom: 2.5rem;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+
+/*  Small mobile :320px. */
+
+@media (min-width: 320px) and (max-width: 767px) {
+	
+}
+
+
+/* Large Mobile :577px. */
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+	
+}
+

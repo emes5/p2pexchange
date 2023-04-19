@@ -1,0 +1,409 @@
+@media screen and (max-width: 1440px) {
+    .left-img {
+        left: 4%;
+        width: 48%;
+    }
+
+    .arrow-left {
+        left: 11%;
+    }
+
+    .arrow-right {
+        right: 17%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .left-img img {
+        width: 650px;
+    }
+
+    .featrue-img {
+        width: 495px;
+    }
+
+    .featrue-img img {
+        width: 335px;
+    }
+
+    .featrue-img::before {
+        border-left: 495px solid transparent;
+    }
+
+    .featrue-img::after {
+        border-right: 495px solid transparent;
+    }
+
+    .newsletter-img {
+        left: -125px;
+    }
+
+    .newsletter-img {
+        left: -87px;
+        bottom: 120px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .left-img img {
+        width: 550px;
+    }
+
+    .right-content h2 {
+        font-size: 36px;
+        line-height: 56px;
+    }
+
+    .featrue-img img {
+        width: 300px;
+    }
+
+    .treading-process-card {
+        text-align: center;
+    }
+
+    .arrow-top {
+        left: 54%;
+    }
+
+    .arrow-bottom {
+        left: 55%;
+    }
+
+    .arrow-left {
+        left: 8%;
+    }
+
+    .arrow-right {
+        right: 7%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .arrow-top {
+        top: 23%;
+    }
+
+    .coin-card .buy-sale-btn {
+        min-width: 150px;
+        height: 50px;
+    }
+
+    .faq-card .card-header button {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+
+    .owl-prev, .owl-next {
+        bottom: -55px;
+    }
+
+    section#faq {
+        padding-top: 100px;
+    }
+
+    .faq-img img {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .featrue-img img {
+        width: 210px;
+    }
+
+    .left-img img {
+        width: 410px;
+    }
+
+    .right-content h2 {
+        font-size: 28px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+
+    .hero-section .left-content h2 {
+        font-size: 30px;
+        line-height: 54px;
+    }
+
+    .right-content p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    ul.navbar-nav {
+        position: fixed;
+        height: 100vh;
+        width: 280px;
+        left: -280px;
+        top: 0;
+        background: linear-gradient(-120deg, #FFE4CE, #FFFFFF);
+        z-index: 999;
+        transition: all 0.3s ease-in-out;
+        transform-origin: left;
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.03);
+    }
+
+    .navigation-menu {
+        top: 0;
+        z-index: 9999;
+    }
+
+    .navbar-collapse.collapse:not(.show) {
+        display: block;
+    }
+
+    .navbar-collapse.menu-show ul.navbar-nav {
+        left: 0;
+    }
+
+    a.navbar-brand img {
+        width: 110px;
+    }
+
+    .logo a {
+        display: table;
+    }
+
+    .is_sticky .header-actions {
+        position: absolute;
+        right: 80px;
+    }
+
+    .header-actions a {
+        padding: 0 10px;
+        border-radius: 6px;
+    }
+
+    .header-area {
+        padding: 15px 0;
+    }
+
+    .header-actions a.cbtn1 {
+        height: 40px;
+        min-width: 105px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .is_sticky .header-actions a.cbtn1 {
+        display: inline-block;
+        height: 45px;
+        min-width: 100px;
+        text-align: center;
+        color: #FC541F;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 45px;
+        border: 1px solid #FC541F;
+        border-radius: 4px !important;
+    }
+
+    .navbar {
+        padding: 30px 0;
+    }
+
+    .is_sticky .navbar {
+        padding: 0;
+    }
+
+    .sticky-logo img {
+        width: 100px;
+    }
+
+    .navbar-nav li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .navbar-nav li a {
+        padding: 10px 25px !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: rgb(254 143 40);
+    }
+
+    .left-img {
+        display: none;
+    }
+
+    .featrue-img img {
+        display: none;
+    }
+    .arrow {
+        display: none;
+    }
+    .treading-process-card {
+        padding: 0;
+    }
+    .treading-process-card h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .testimonial-slider .item img {
+        margin-left: unset;
+    }
+    .faq-img img{
+        display: none;
+    }
+    .address-widget ul li:not(:last-child), .footer-widget ul.links li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .right-image{
+        display:none;
+    }
+    .hero-section {
+        padding: 165px 0 110px;
+    }
+    .about {
+        padding: 80px 0;
+    }
+    .features {
+        padding: 80px 0 0;
+    }
+    .how-to-trade {
+        padding: 120px 0 30px;
+    }
+    .treading-process {
+        margin-top: 0;
+        position: relative;
+    }
+    .testimonials {
+        padding: 90px 0 120px;
+    }
+    section#faq {
+        padding-top: 60px;
+    }
+    .newsletter {
+        margin: 70px 0;
+    }
+    .navigation-menu.is_sticky ul.navbar-nav {
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .owl-theme .owl-nav {
+        position: relative;
+        left: -52%;
+    }
+    .featrue-img::after,
+    .featrue-img::before{
+        display: none;
+    }
+    .section-title h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .newsletter-inner {
+        padding: 50px;
+    }
+    .newsletter-submit-btn {
+        right: 15px;
+    }
+    .how-to-trade {
+        padding: 25px 0;
+    }
+    .features {
+        padding: 100px 0 50px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .featrue-img,
+    .newsletter-img{
+        display: none;
+    }
+    .owl-next {
+        left: 100%;
+    }
+    .hero-section {
+        padding: 130px 0 80px;
+    }
+    .hero-section .left-content h2 {
+        font-size: 27px;
+    }
+    .section-title {
+        margin-bottom: 35px;
+    }
+    .top-footer {
+        padding: 50px 0 0;
+    }
+    .bottom-footer {
+        padding: 20px 0;
+    }
+    .is_sticky .header-actions {
+        position: absolute;
+        right: 60px;
+    }
+
+    .features {
+        padding: 55px 0 50px;
+    }
+    .is_sticky .header-actions a.cbtn1 {
+        height: 40px;
+        min-width: 90px;
+        line-height: 40px;
+    }
+   
+}
+@media screen and (max-width: 480px) {
+    .newsletter-inner {
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .coin-card .btn-group {
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+    }
+    .coin-card .buy-sale-btn {
+        min-width: 100%;
+        margin: 18px 0;
+    }
+    .section-title h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .testimonial-slider .item img {
+        width: 200px;
+        height: 200px;
+    }
+    .testimonial-slider .item h3 {
+        font-size: 28px;
+    }
+    .testimonial-slider .item h5 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .testimonial-slider .item p {
+        font-size: 16px;
+    }
+    .newsletter-inner {
+        padding: 15px;
+    }
+    .faq-card .card-header button {
+        font-size: 16px;
+        padding-left: 85px;
+    }
+    .faq-card .card-header .collapsed::before {
+        left: 15px;
+    }
+    .owl-prev::before, .owl-next::before {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+}
